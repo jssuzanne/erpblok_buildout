@@ -76,7 +76,14 @@ By the way if you want to try the demo, here are the steps to follow.
 * Edit the erpblok.cfg file according to your database settings
 * Create a new database
 
-    ./bin/erpblok -c erpblok.cfg
+    ./bin/anyblok_pyramid -c erpblok.cfg
+
+.. warning::
+
+    anyblok_pyramid is only for test, if you want better wsgi server, install
+    the gunicorn package and use this command::
+
+        ./bin/gunicorn_anyblok_pyramid --anyblok-configfile erpblok.cfg -b 127.0.0.1:8080
 
 Look at the `doc` directory of the main ERPBlok respository for more details.
 
