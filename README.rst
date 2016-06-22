@@ -10,7 +10,7 @@ The main goal of this recipe is to help you in :
 * Install all required dependencies in an isolated environment that does not mess up your main
   python path
 
-.. _erpblok: https://bitbucket.org/jssuzanne/erpblok
+.. _erpblok: https://github.com/ERPBlok/ERPBlok
 
 System dependencies
 -------------------
@@ -47,7 +47,7 @@ Create a directory to store your project and change into it
 
 Clone the current repository and give it your project name
 
-    hg clone ssh://hg@bitbucket.org/jssuzanne/erpblok_buildout demo
+    hg clone https://github.com/jssuzanne/erpblok_buildout demo
 
 Change to the project directory, bootstrap and build it
 
@@ -87,7 +87,7 @@ By the way if you want to try the demo, here are the steps to follow.
 
 Look at the `doc` directory of the main ERPBlok respository for more details.
 
-https://bitbucket.org/jssuzanne/erpblok/
+https://doc.erpblok.anyblok.org
 
 Contributing (hackers needed!)
 ==============================
